@@ -55,6 +55,7 @@ CREATE TABLE document_embeddings (
     strategy_split TEXT NOT NULL,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
+```
 
 ### Run the Script
 
