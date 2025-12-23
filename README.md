@@ -104,10 +104,11 @@ To guarantee that every chunk sent to Gemini complies with this constraint, a sa
 
 Oversized chunks are split into smaller sub-chunks, regardless of the selected chunking strategy.
 
-For Gemini models, **one token corresponds to approximately four characters**. Based on this approximation, a safe maximum chunk size of: `MAX_CHARS` = 6000 is used.
+For Gemini models, **one token corresponds to approximately four characters**. Based on this, a safe maximum chunk size of: `MAX_CHARS` = 6000 is used.
 
 Relevant docs:  
 Gemini token counting: https://ai.google.dev/gemini-api/docs/tokens?lang=python
+Gemini Embeddings: https://ai.google.dev/gemini-api/docs/embeddings
 
 ## Example Output
 
