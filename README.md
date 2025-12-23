@@ -94,10 +94,10 @@ The Gemini Embeddings API returns dense numerical vectors. To preserve precision
 Relevant docs:  
 https://www.postgresql.org/docs/current/datatype-numeric.html  
 
-## Text Normalization
+### Text Normalization
 Text normalization is applied after chunking to preserve sentence and paragraph boundaries required by different splitting strategies.
 
-## Token Safety and Input Size Limits
+### Token Safety and Input Size Limits
 
 Each call to the Gemini Embeddings API may include **at most 2,048 input tokens**.
 To guarantee that every chunk sent to Gemini complies with this constraint, a safety mechanism is applied before embedding generation.
