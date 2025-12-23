@@ -46,7 +46,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ### 4. Create the Database Table
 execute the following SQL:
-
+```sql
 CREATE TABLE document_embeddings (
     id SERIAL PRIMARY KEY,
     chunk_text TEXT NOT NULL,
