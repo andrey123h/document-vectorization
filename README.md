@@ -62,9 +62,9 @@ CREATE TABLE document_embeddings (
 The script accepts a PDF or DOCX file and a chunking strategy.
 Available chunking strategies:
 
-fixed: fixed-size chunks with overlap (default)
-sentence: sentence-based splitting
-paragraph: paragraph-based splitting
+- fixed: fixed-size chunks with overlap (default)
+- sentence: sentence-based splitting
+- paragraph: paragraph-based splitting
 
 Example 1: 
 PDF with fixed-size chunks
