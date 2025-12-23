@@ -108,6 +108,7 @@ For Gemini models, **one token corresponds to approximately four characters**. B
 
 Relevant docs:  
 Gemini token counting: https://ai.google.dev/gemini-api/docs/tokens?lang=python
+
 Gemini Embeddings: https://ai.google.dev/gemini-api/docs/embeddings
 
 ## Example Output
