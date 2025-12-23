@@ -37,9 +37,13 @@ A single-script document vectorization pipeline that extracts text from PDF/DOCX
 Create a .env file in the project root.
 
 POSTGRES_HOST=localhost
+
 POSTGRES_PORT=5432
+
 POSTGRES_DB=document_vectors
+
 POSTGRES_USER=postgres
+
 POSTGRES_PASSWORD=your_password_here
 
 GEMINI_API_KEY=your_gemini_api_key_here
@@ -68,11 +72,13 @@ Available chunking strategies:
 
 Example 1: 
 PDF with fixed-size chunks
-python index_documents.py test-pdf.pdf
+
+`python index_documents.py test-pdf.pdf`
 
 Example 2: 
 DOCX with sentence-based splitting
-python index_documents.py test-docx.docx --strategy sentence
+
+`python index_documents.py test-docx.docx --strategy sentence`
 
 ## Engineering Decisions
 
