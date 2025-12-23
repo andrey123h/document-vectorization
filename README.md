@@ -26,10 +26,11 @@ A single-script document vectorization pipeline that extracts text from PDF/DOCX
 - Git
 
 ### 1. Clone the Repository
-git clone https://github.com/andrey123h/document-vectorization.git
+
+`git clone https://github.com/andrey123h/document-vectorization.git`
 
 ### 2. Install Dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### 3. Configure Environment Variables 
 
