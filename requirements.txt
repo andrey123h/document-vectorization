@@ -1,0 +1,6 @@
+google-genai>=0.2.0 # Google GenAI SDK
+pypdf>=3.17.0
+python-docx>=1.1.0
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
+
