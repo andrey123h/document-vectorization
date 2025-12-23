@@ -87,7 +87,7 @@ DOCX with sentence-based splitting
 For this assignment, PostgreSQL was chosen as the storage layer instead of a dedicated *vector database*. 
 Since the assignment does not require similarity search, a vector database would add unnecessary complexity. 
 
-In a *production-grade system* where embedding-based retrieval or similarity search is required, a vector database (or the pgvector PostgreSQL extension) would be the appropriate choice.
+In a **production grade system** where embedding-based retrieval or similarity search is required, a vector database (or the pgvector PostgreSQL extension) would be the appropriate choice.
 
 The Gemini Embeddings API returns dense numerical vectors. To preserve precision, embeddings are stored in PostgreSQL using the `DOUBLE PRECISION[]` data type.
 
@@ -104,7 +104,7 @@ To guarantee that every chunk sent to Gemini complies with this constraint, a sa
 
 Oversized chunks are split into smaller sub-chunks, regardless of the selected chunking strategy.
 
-For Gemini models, **one token corresponds to approximately four characters**. Based on this approximation, a safe maximum chunk size of: `MAX_CHARS'` = 6000 is used.
+For Gemini models, **one token corresponds to approximately four characters**. Based on this approximation, a safe maximum chunk size of: `MAX_CHARS` = 6000 is used.
 
 Relevant docs:  
 Gemini token counting: https://ai.google.dev/gemini-api/docs/tokens?lang=python
